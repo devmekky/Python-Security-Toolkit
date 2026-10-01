@@ -1,6 +1,6 @@
 # Python Security Toolkit 🛡️
 
-A collection of custom cybersecurity tools, networking scripts, and automation utilities built using Python. This repository is dedicated to practical information security development, reconnaissance, network scanning, and utilities.
+A collection of custom cybersecurity tools, networking scripts, and automation utilities built using Python. This repository is dedicated to practical information security development, reconnaissance, network scanning, and digital footprinting utilities.
 
 ## 🛠️ Tools Included
 
@@ -27,6 +27,14 @@ A security utility that evaluates password strength based on length, uppercase a
   * Regex-based pattern matching for complexity checks.
   * Scoring system (out of 5) with actionable security tips.
 
+### 4. Modern OSINT Username Footprinter (`osint_tracker.py`)
+An advanced open-source intelligence (OSINT) utility designed to track and check username availability across multiple popular social media and developer platforms simultaneously.
+
+* **Features:**
+  * Multi-threaded execution using `ThreadPoolExecutor` for high performance.
+  * Custom `User-Agent` headers to simulate real browser requests and prevent blocks.
+  * Structured output displaying active target profiles.
+
 ## 🚀 Usage Example
 
 Run the scripts from your terminal:
@@ -34,3 +42,4 @@ Run the scripts from your terminal:
 python port_scanner.py
 python sub_enum.py
 python pass_checker.py
+python osint_tracker.py
