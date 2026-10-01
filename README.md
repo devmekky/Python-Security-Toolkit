@@ -12,8 +12,17 @@ A fast network port scanner built using Python's `socket` and `threading` librar
   * Customizable target IP and port range.
   * Clean and professional error/exception handling.
 
+### 2. Subdomain Enumerator (`sub_enum.py`)
+A reconnaissance tool designed to discover active subdomains for a given target domain using HTTP requests and a predefined wordlist.
+
+* **Features:**
+  * Automated scanning of common subdomains.
+  * Exception handling for connection errors and timeouts.
+  * Clean user interruption support.
+
 ## 🚀 Usage Example
 
-Run the script from your terminal:
+Run the scripts from your terminal:
 ```bash
 python port_scanner.py
+python sub_enum.py
